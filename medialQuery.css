@@ -1,0 +1,34 @@
+@media only screen and (max-width: 600px){
+    #about{
+        display: flex;
+        flex-direction: column;
+    }
+    #about div{
+        width: 100%;
+        overflow: hidden;
+    }
+    .navbar div:nth-child(odd){
+        display: none;
+    }
+    .navbar div:nth-child(even){
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    #slider{
+        visibility: visible;
+    }
+
+    #about img{
+        width: 100%;
+    }
+    .footerContent{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 100px;
+    }
+}
