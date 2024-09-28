@@ -174,7 +174,7 @@ body{
 }
 .section{
     width: 100vw;
-    height: 50vh;
+    height: 400px;
     background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9));
     background: red;
 }
