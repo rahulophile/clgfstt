@@ -8,6 +8,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
+    background: black;
     font-family: "SUSE", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -27,6 +28,12 @@ body{
     top: 0;
     z-index: -1;
     width: 100vw;
+}
+.homeContent{
+    color: #fff;
+    overflow-x: hidden;
+    position: relative;
+    z-index: 1;
 }
 #eventTitleText{
     font-family: "Sevillana", cursive;
@@ -167,12 +174,11 @@ body{
 }
 .section{
     width: 100vw;
-    z-index: -1;
     height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9));
 }
 .afterSection{
-    height: 30vh;
+    height: 100px;
     width: 100vw;
     background: linear-gradient(to bottom, rgba(0,0,0,0.9), rgba(0, 0, 0, 0.205), rgba(59, 59, 59, 0.04));
 }
