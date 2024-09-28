@@ -18,6 +18,7 @@ body{
     line-height: 40px;
     word-spacing: 0px;
     overflow-x: hidden;
+    height: 100%;
 }
 .homeBg{
     background:linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.8)), url(website\ background.jpg);
@@ -30,6 +31,7 @@ body{
     z-index: -1;
     width: 100vw;
     overflow-x: hidden;
+    min-height: 100vh;
 }
 .homeContent{
     color: #fff;
@@ -37,6 +39,7 @@ body{
     position: relative;
     z-index: 1;
     overflow-x: hidden;
+    height: 100%;
 }
 #eventTitleText{
     font-family: "Sevillana", cursive;
